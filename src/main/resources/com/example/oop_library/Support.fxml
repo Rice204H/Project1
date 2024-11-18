@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="20" alignment="TOP_CENTER" style="-fx-padding: 20;" 
+    stylesheets="@stylesSupport.css">
+    
+    <!-- Phần tiêu đề của form -->
+    <VBox spacing="10" alignment="CENTER_LEFT">
+        <Text text="Support" fill="red">
+            <font>
+                <Font size="20" />
+            </font>
+        </Text>
+        <Separator style="-fx-background-color: red;" />
+    </VBox>
+
+    <!-- Form Container -->
+    <VBox spacing="15" alignment="CENTER_LEFT" style="-fx-padding: 10;">
+        <!-- Tiêu đề -->
+        <HBox spacing="10">
+            <Label text="Tiêu đề*" />
+            <TextField fx:id="title" promptText="Nhập tiêu đề" />
+        </HBox>
+
+        <!-- Tên người gửi -->
+        <HBox spacing="10">
+            <Label text="Tên người gửi*" />
+            <TextField fx:id="sender" promptText="Nhập tên người gửi" />
+        </HBox>
+
+        <!-- Email -->
+        <HBox spacing="10">
+            <Label text="Email" />
+            <TextField fx:id="email" promptText="Nhập email (tùy chọn)" />
+        </HBox>
+
+        <!-- Số điện thoại -->
+        <HBox spacing="10">
+            <Label text="Số điện thoại" />
+            <TextField fx:id="phone" promptText="Nhập số điện thoại (tùy chọn)" />
+        </HBox>
+
+        <!-- Nội dung -->
+        <VBox spacing="5">
+            <Label text="Nội dung*" />
+            <TextArea fx:id="content" promptText="Nhập nội dung" prefHeight="100" />
+        </VBox>
+
+        <!-- Nút gửi câu hỏi -->
+        <HBox spacing="10" alignment="CENTER">
+            <Button text="Gửi câu hỏi" fx:id="submitButton" />
+        </HBox>
+    </VBox>
+
+</VBox>

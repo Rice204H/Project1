@@ -1,0 +1,68 @@
+.loginRootVBox {
+    -fx-background-color: white;
+    -fx-background-radius: 150;
+}
+
+.loginVBox {
+    /*-fx-background-color: lightgreen;*/
+    /*-fx-background-radius: 20;*/
+}
+
+#loginHBoxRight {
+    /*-fx-background-color: #edfdf6;*/
+    /*-fx-background-radius: 120;*/
+}
+
+#loginLabel1 {
+    -fx-text-fill: #00d374;
+}
+
+#loginLabel2 {
+    -fx-text-fill: #00dc80;
+}
+
+#loginPhoneNumberTextField, #loginPasswordField {
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+
+    -fx-border-width: 2;
+    -fx-border-color: #00a653;
+    -fx-border-radius: 10;
+}
+
+#loginSignUpLabel, #loginForgotPasswordLabel {
+    -fx-text-fill: #00ba88;
+    -fx-underline: true;
+}
+
+#loginSignUpLabel:hover, #loginForgotPasswordLabel:hover {
+    -fx-opacity: 0.7;
+    -fx-cursor: hand;
+}
+
+#loginCheckingAccountLabel {
+    -fx-wrap-text: true;
+}
+
+#loginButton {
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+
+    -fx-background-color: #06dc7c;
+    -fx-background-radius: 10;
+    -fx-border-color: #009552;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+}
+
+#loginButton:hover {
+    -fx-opacity: 0.7;
+    -fx-cursor: hand;
+}
+
+#loginButton:pressed {
+    -fx-opacity: 0.9;
+}
+
+
+

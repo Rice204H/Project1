@@ -1,0 +1,63 @@
+#rootHBox {
+    -fx-background-radius: 20;
+    -fx-background-color: white;
+
+    -fx-effect: dropshadow(gaussian, rgba(0, 211, 116, 0.3), 20, 0.5, 5, 5);
+}
+
+#signUpHBoxImageView {
+
+}
+
+#HBoxVBox {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+}
+
+#signUpLabel1 {
+    -fx-text-fill: #00d374;
+    -fx-font-weight: 700;
+}
+
+#signUpNameTextField, #signUpPhoneNumberTextField, #signUpPasswordField, #signUpConfirmPasswordPasswordField {
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+
+    -fx-border-width: 2;
+    -fx-border-color: #00a653;
+    -fx-border-radius: 10;
+}
+
+#signUpCheckingAccountLabel {
+    -fx-wrap-text: true;
+}
+
+#signUpButton {
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+
+    -fx-background-color: #06dc7c;
+    -fx-background-radius: 10;
+    -fx-border-color: #009552;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+}
+
+#signUpButton:hover, #signUpSignInLabel:hover {
+    -fx-opacity: 0.7;
+    -fx-cursor: hand;
+}
+
+#signUpButton:pressed, signUpSignInLabel:pressed {
+    -fx-opacity: 0.9;
+}
+
+#signUpLabel2 {
+    -fx-text-fill: #00d374;
+}
+
+#signUpSignInLabel {
+    -fx-text-fill: #00d374;
+    -fx-font-weight: 700;
+}
+

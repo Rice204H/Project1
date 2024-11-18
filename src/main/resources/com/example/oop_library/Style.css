@@ -1,0 +1,131 @@
+.white-background {
+    -fx-background-color: #ffffff;
+}
+.white-background:hover {
+    -fx-background-color: #f9f9f9; 
+}
+.white-background:active {
+    -fx-background-color: #dcdcdc;  /* Màu nền khi nhấn chuột vào */
+}
+
+.right-side-border {
+    -fx-border-color: #6f6f6f;
+    -fx-border-width: 0 1px 0 0;
+}
+.right-side-border:hover {
+    -fx-border-color: #ff7f50; 
+}
+.right-side-border:active {
+    -fx-border-color: #ff7f50;  /* Giữ màu khi nhấn */
+}
+
+.bottom-side-border {
+    -fx-border-color: #6f6f6f;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-radius: 30px; 
+}
+.bottom-side-border:hover {
+    -fx-border-color: #4682b4; 
+}
+.bottom-side-border:active {
+    -fx-border-color: #4682b4;  /* Giữ màu khi nhấn */
+}
+
+.borrow-button {
+    -fx-border-color: #000000;
+    -fx-border-radius: 30px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-padding: 5 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 0);
+}
+.borrow-button:hover {
+    -fx-background-color: #000000; 
+    -fx-text-fill: #ffffff; 
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+}
+.borrow-button:active {
+    -fx-background-color: #333333;  /* Màu khi nhấn chuột */
+    -fx-text-fill: #ffffff; 
+}
+
+.search-container {
+    -fx-border-color: #000000;
+    -fx-border-radius: 30px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-padding: 5 15;
+    -fx-font-size: 14px;
+}
+.search-container:hover {
+    -fx-border-color: #007bff; 
+    -fx-background-color: #f0f8ff;
+}
+.search-container:active {
+    -fx-border-color: #0056b3;
+    -fx-background-color: #d0e4ff;  /* Giữ màu khi nhấn */
+}
+
+.transparent {
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.card1 {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 0);
+    -fx-padding: 10;
+    -fx-font-size: 12px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 30px;
+}
+.card1:hover {
+    -fx-background-color: #f8f8f8;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 15, 0, 0, 0);
+    -fx-cursor: hand;
+}
+.card1:active {
+    -fx-background-color: #e6e6e6;  /* Giữ màu khi nhấn */
+}
+
+.menu {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+.menu:hover {
+    -fx-background-color: #71dcec; 
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 0);
+}
+.menu:active {
+    -fx-background-color: #007af5;  /* Màu khi nhấn chuột */
+}
+
+.menu-unselected {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30px;
+}
+.menu-unselected:hover {
+    -fx-background-color: #f0f0f0;
+}
+.menu-unselected:active {
+    -fx-background-color: #d0d0d0;  /* Giữ màu khi nhấn */
+}
+
+#featuredBooks {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 15;
+}
+
+#centerArea {
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-alignment: top-center;
+}
+
